@@ -5,7 +5,7 @@ from selenium import webdriver
 import allure
 import pytest
 
-from SIrenaPage import SearchHelper
+from SirenPages import SearchHelper
 
 
 @pytest.mark.parametrize("zip_code,expected",
